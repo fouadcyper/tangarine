@@ -1,7 +1,7 @@
 # QuickConvert 3
 
-[![Tests](https://github.com/fouadcyper/quickconvert-gnome-wayland/actions/workflows/tests.yml/badge.svg)](https://github.com/fouadcyper/quickconvert-gnome-wayland/actions/workflows/tests.yml)
-[![Release](https://img.shields.io/github/v/release/fouadcyper/quickconvert-gnome-wayland)](https://github.com/fouadcyper/quickconvert-gnome-wayland/releases/latest)
+[![Tests](https://github.com/fouadcyper/tangarine/actions/workflows/tests.yml/badge.svg)](https://github.com/fouadcyper/tangarine/actions/workflows/tests.yml)
+[![Release](https://img.shields.io/github/v/release/fouadcyper/tangarine)](https://github.com/fouadcyper/tangarine/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A Tangerine-inspired radial quick converter built for **Kali Linux x86_64,
@@ -11,7 +11,7 @@ X11 window, so the desktop remains visible while you drag and convert files.
 ## One-command install
 
 ```bash
-curl -fL -o /tmp/QuickConvert.run https://github.com/fouadcyper/quickconvert-gnome-wayland/releases/latest/download/QuickConvert-3.1.0-Kali-GNOME-Wayland.run && bash /tmp/QuickConvert.run
+curl -fL -o /tmp/QuickConvert.run https://github.com/fouadcyper/tangarine/releases/latest/download/QuickConvert-3.1.0-Kali-GNOME-Wayland.run && bash /tmp/QuickConvert.run
 ```
 
 The installer may ask for your password once to install the required
