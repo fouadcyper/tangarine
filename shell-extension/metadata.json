@@ -1,0 +1,8 @@
+{
+  "uuid": "quickconvert@fouad.local",
+  "name": "QuickConvert Radial",
+  "description": "Tangerine-style radial file conversion overlay for GNOME Wayland",
+  "shell-version": ["50"],
+  "version": 6,
+  "url": "https://github.com/quickconvert"
+}

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=QuickConvert
+Name[ar]=المحوّل السريع
+Comment=Quick file conversion settings
+Comment[ar]=إعدادات التحويل السريع للملفات
+Exec=quickconvert --settings
+Icon=io.github.quickconvert.app
+Terminal=false
+Type=Application
+Categories=Utility;FileTools;
+MimeType=image/png;image/jpeg;image/webp;image/gif;image/tiff;video/mp4;video/webm;video/x-matroska;video/quicktime;audio/mpeg;audio/wav;audio/ogg;audio/flac;application/pdf;
+StartupNotify=false
+StartupWMClass=io.github.quickconvert.app

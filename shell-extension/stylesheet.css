@@ -1,0 +1,100 @@
+.quickconvert-overlay {
+  color: #f7f8f6;
+}
+
+.quickconvert-glass {
+  border-radius: 165px;
+  background-color: rgba(13, 15, 14, 0.66);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow: 0 20px 70px 16px rgba(0, 0, 0, 0.34),
+              inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.quickconvert-more {
+  background-color: rgba(190, 196, 192, 0.12);
+}
+
+.quickconvert-action {
+  border-radius: 38px;
+  padding: 8px;
+  color: rgba(245, 248, 244, 0.82);
+  background-color: rgba(255, 255, 255, 0.075);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.09);
+  transition-duration: 140ms;
+}
+
+.quickconvert-action:hover,
+.quickconvert-action:selected {
+  color: #ffffff;
+  background-color: rgba(121, 188, 132, 0.34);
+  border-color: rgba(178, 231, 184, 0.56);
+  box-shadow: 0 6px 26px rgba(32, 87, 47, 0.26),
+              inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+.quickconvert-action-label {
+  font-size: 9px;
+  font-weight: 800;
+  padding-top: 4px;
+}
+
+.quickconvert-center {
+  border-radius: 58px;
+  padding: 16px;
+  color: #f8faf7;
+  background-color: rgba(7, 9, 8, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.30),
+              inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.quickconvert-file-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.70);
+  padding-top: 7px;
+}
+
+.quickconvert-size-label {
+  font-size: 9px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.42);
+  padding-top: 2px;
+}
+
+.quickconvert-progress-ring {
+  border-radius: 68px;
+  border: 3px solid rgba(255, 255, 255, 0.055);
+  border-top-color: rgba(184, 230, 190, 0.95);
+  border-right-color: rgba(184, 230, 190, 0.35);
+  opacity: 0;
+}
+
+.quickconvert-center:busy + .quickconvert-progress-ring,
+.quickconvert-progress-ring {
+  transition-duration: 150ms;
+}
+
+.quickconvert-center:busy {
+  border-color: rgba(184, 230, 190, 0.44);
+}
+
+.quickconvert-center:success {
+  color: #d7f7dc;
+  border-color: rgba(184, 230, 190, 0.72);
+  background-color: rgba(22, 54, 30, 0.92);
+}
+
+.quickconvert-cancel {
+  border-radius: 19px;
+  padding: 9px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(20, 22, 21, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.quickconvert-cancel:hover {
+  color: #ffffff;
+  background-color: rgba(175, 68, 68, 0.8);
+}
