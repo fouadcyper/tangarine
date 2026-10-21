@@ -4,6 +4,8 @@
 [![Release](https://img.shields.io/github/v/release/fouadcyper/tangarine)](https://github.com/fouadcyper/tangarine/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+![Tangarine — Quick Convert for GNOME Wayland](assets/tangarine-cover.webp)
+
 A Tangerine-inspired radial quick converter built for **Kali Linux x86_64,
 GNOME 50, and native Wayland**. It uses a GNOME Shell overlay instead of an
 X11 window, so the desktop remains visible while you drag and convert files.
